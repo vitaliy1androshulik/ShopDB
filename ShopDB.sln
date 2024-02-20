@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDB", "ShopDB\ShopDB.csproj", "{EA49983D-249A-4278-B7F6-32BE1ACC89EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_ShopDB", "WPF_ShopDB\WPF_ShopDB.csproj", "{F34C11E4-B3C6-4E6A-B493-AE7D661EB3E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EA49983D-249A-4278-B7F6-32BE1ACC89EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA49983D-249A-4278-B7F6-32BE1ACC89EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA49983D-249A-4278-B7F6-32BE1ACC89EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34C11E4-B3C6-4E6A-B493-AE7D661EB3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34C11E4-B3C6-4E6A-B493-AE7D661EB3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34C11E4-B3C6-4E6A-B493-AE7D661EB3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34C11E4-B3C6-4E6A-B493-AE7D661EB3E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

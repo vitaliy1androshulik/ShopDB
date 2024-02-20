@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPF_ShopDB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ShopDB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Click="Cities_Click" x:Name="Cities">Cities</Button>
+            <Button Click="Shops_Click" x:Name="Shops">Shops</Button>
+            <Button Click="Countries_Click" x:Name="Countries">Countries</Button>
+            <Button Click="Categories_Click" x:Name="Categories">Categories</Button>
+            <Button Click="Products_Click" x:Name="Products">Products</Button>
+            <Button Click="Position_Click" x:Name="Position">Position</Button>
+            <Button Click="Workers_Click" x:Name="Workers">Workers</Button>
+        </ToolBar>
+        <DataGrid x:Name="Grid"></DataGrid>
+    </DockPanel>
+</Window>
